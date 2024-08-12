@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.teste.ConfigController">
+    <Label fx:id="Janela" text="Dimensões"/>
+    <VBox alignment="CENTER" spacing="10.0">
+        <ListView fx:id="Lista" prefHeight="200.0" prefWidth="100.0"/>
+    </VBox>
+    <Label fx:id="Dif" text="Dificuldade"/>
+    <VBox alignment="CENTER" spacing="10.0">
+        <ListView fx:id="Dificuldade" prefHeight="200.0" prefWidth="100.0"/>
+    </VBox>
+    <Label fx:id="Frame" text="FPS"/>
+    <VBox alignment="CENTER" spacing="10.0">
+        <ListView fx:id="FPS" prefHeight="200.0" prefWidth="100.0"/>
+    </VBox>
+    <HBox alignment="CENTER" spacing="10.0">
+        <Button fx:id="salvarButton" mnemonicParsing="false" text="Salvar" onAction="#onSalvarClick"/>
+        <Button fx:id="sairButton" mnemonicParsing="false" text="Sair" onAction="#onSairClick"/>
+    </HBox>
+</HBox>

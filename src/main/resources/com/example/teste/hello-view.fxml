@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.teste.HelloController">
+    <Button fx:id="Inicio" mnemonicParsing="false" text="Inicio" onAction="#onInicioClick"/>
+    <Button fx:id="Config" mnemonicParsing="false" text="Config" onAction="#onConfigClick"/>
+    <Button fx:id="Pecados" mnemonicParsing="false" text="Pecados" onAction="#onPecadosClick"/>
+    <Button fx:id="Virtudes" mnemonicParsing="false" text="Virtudes" onAction="#onVirtudesClick"/>
+    <Button fx:id="Sair" mnemonicParsing="false" text="Sair" onAction="#onSairClick"/>
+</HBox>
